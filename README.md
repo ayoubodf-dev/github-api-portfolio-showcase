@@ -3,6 +3,8 @@
 A portfolio dashboard that turns GitHub REST API data into a focused view of
 repositories, technologies, activity, and engineering projects.
 
+**Live showcase:** [ayoubodf-dev.github.io/github-api-portfolio-showcase](https://ayoubodf-dev.github.io/github-api-portfolio-showcase/)
+
 ![GitHub Engineering Dashboard](docs/images/demo.png)
 
 ## Highlights
