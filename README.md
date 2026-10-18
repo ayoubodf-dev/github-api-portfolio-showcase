@@ -1,7 +1,7 @@
 # GitHub Engineering Dashboard
 
-A portfolio dashboard that turns GitHub REST API data into a focused view of
-repositories, technologies, activity, and engineering projects.
+A client-facing engineering portfolio with searchable project case studies,
+public GitHub statistics, and a direct path to discuss work with Ayoub Odf.
 
 **Live showcase:** [ayoubodf-dev.github.io/github-api-portfolio-showcase](https://ayoubodf-dev.github.io/github-api-portfolio-showcase/)
 
@@ -9,11 +9,25 @@ repositories, technologies, activity, and engineering projects.
 
 ## Highlights
 
-- Live GitHub profile and repository statistics
-- Featured-product metadata
-- Language and platform summaries
-- Responsive portfolio presentation
-- Rate-conscious API caching
+- Six curated web, mobile, desktop, and automation project showcases
+- Search and category filters, with accessible project-detail dialogs
+- Live public GitHub statistics and a repository language summary
+- Browser caching for 15 minutes and a graceful API-unavailable state
+- Responsive desktop, tablet, and mobile layouts
+- A clear delivery process and Fiverr contact links
+
+Project-card illustrations are labeled as interface concepts, not product
+screenshots. Project documentation and available media are linked separately.
+
+## Local preview
+
+Serve this directory with a static HTTP server, for example:
+
+```sh
+python3 -m http.server 8769 --bind 127.0.0.1
+```
+
+No build step, secret, GitHub token, or private repository access is required.
 
 ## Architecture
 
@@ -28,7 +42,8 @@ flowchart LR
 
 ## Source availability
 
-The current implementation is private and proprietary. This public repository
-contains product documentation and demonstration media only.
+This repository contains the public showcase interface, documentation, and
+demonstration media. Underlying product implementations and the separate server
+dashboard remain private and proprietary.
 
 Copyright © 2026 Ayoub Odf. All rights reserved.
