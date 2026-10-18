@@ -16,8 +16,9 @@ public GitHub statistics, and a direct path to discuss work with Ayoub Odf.
 - Responsive desktop, tablet, and mobile layouts
 - A clear delivery process and Fiverr contact links
 
-Project-card illustrations are labeled as interface concepts, not product
-screenshots. Project documentation and available media are linked separately.
+Project cards show the original demo images from each public showcase repository.
+Click an image to see a larger preview and project notes; GitHub links provide
+further documentation. The interface uses a dark charcoal and teal palette.
 
 ## Local preview
 
